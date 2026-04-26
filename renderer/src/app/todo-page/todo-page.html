@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>{{ title() }}</h1>
+  <app-todo-input-component (taskAdded)="onTaskAdded($event)"></app-todo-input-component>
+  <app-todo-list-component 
+    [tasks]="tasks()" 
+    (taskUpdated)="onTaskUpdated($event)" 
+    (taskDeleted)="onTaskDeleted($event)">
+  </app-todo-list-component>
+</div>

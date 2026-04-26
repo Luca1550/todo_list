@@ -1,0 +1,4 @@
+<div class="input-section">
+            <input #taskInputRef (keyup.enter)="onAddTask()" [(ngModel)]="newTaskText" type="text" id="task-input" placeholder="Ajouter une nouvelle tâche...">
+            <button (click)="onAddTask()" id="add-task-btn">Ajouter</button>
+        </div>
