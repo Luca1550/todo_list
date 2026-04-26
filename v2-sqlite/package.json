@@ -1,9 +1,17 @@
 {
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
-    "start": "electron ."
+    "build": "tsc",
+    "start": "tsc && electron ."
   },
   "devDependencies": {
-    "electron": "^41.1.1"
+    "@electron/rebuild": "^4.0.4",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.6.0",
+    "electron": "^41.1.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0"
   }
 }

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.db
+*.sqlite
+07.2 - Counter SQL Brut.pdf
+.DS_Store
+saveFile.json
