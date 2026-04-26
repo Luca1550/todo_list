@@ -9,4 +9,7 @@ export default defineConfig({
       ],
     },
   },
+  define: {
+    'import.meta.url': 'require("url").pathToFileURL(__filename).href',
+  },
 });

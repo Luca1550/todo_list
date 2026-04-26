@@ -1,8 +1,10 @@
 {
+  "name": "todo-list-v3",
+  "version": "1.0.0",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
-    "build:angular": "cd renderer/app && npm i && ng build",
+    "build:angular": "cd renderer && npm i && npx ng build",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "prisma:generate": "npx prisma generate",

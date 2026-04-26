@@ -5,3 +5,5 @@ dist/
 07.2 - Counter SQL Brut.pdf
 .DS_Store
 saveFile.json
+
+/src/generated/prisma
