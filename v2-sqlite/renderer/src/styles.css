@@ -1,0 +1,10 @@
+/* Style global de l'application basé sur devine-le-nombre */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 0;
+}
