@@ -1,0 +1,22 @@
+<div class="list-section">
+    <ul class="task-list">
+        @for (task of tasks(); track task.id){
+        <li class="task-item" [class.task-completed]="task.completed">
+            <input type="checkbox" class="task-checkbox" [checked]="task.completed"
+                (change)="onToggleComplete(task,$event)">
+
+            <span class="task-text">{{ task.text }}</span>
+
+            <button class="delete-btn" title="Supprimer" (click)="onDelete(task.id)">
+                🗑️
+            </button>
+        </li>
+        
+        } @empty {
+        <!-- Ce bloc s'affiche automatiquement si la liste tasks() est vide ! -->
+        <li class="task-item" style="justify-content: center; color: #7f8c8d;">
+            Aucune tâche pour le moment.
+        </li>
+        }
+    </ul>
+</div>
