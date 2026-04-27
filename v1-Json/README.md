@@ -1,4 +1,4 @@
-# ToDo List App
+# ToDo List App (v1 - JSON)
 
 Ce projet est un **projet scolaire**. Il s'agit d'une application de gestion de tâches (To-Do List) développée avec **Electron** (pour la partie bureau) et **Angular** (pour l'interface utilisateur).
 
@@ -6,7 +6,7 @@ Ce projet est un **projet scolaire**. Il s'agit d'une application de gestion de 
 - Ajouter des tâches
 - Marquer des tâches comme terminées
 - Supprimer des tâches
-- Sauvegarde locale automatique (`saveFile.json` à la racine du projet)
+- Sauvegarde locale automatique (`saveFile.json` à la racine du sous-projet)
 
 ## Comment lancer l'application (Première utilisation)
 
@@ -15,7 +15,7 @@ Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 
 ### Étapes d'installation et de lancement
 
-1. **Ouvrez un terminal** à la racine du projet (le dossier `todo_list`).
+1. **Ouvrez un terminal** dans le dossier `v1-Json`.
 
 2. **Installez les dépendances du projet principal (Electron)** :
    ```bash
